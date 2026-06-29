@@ -6,7 +6,9 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
-nltk.download('stopwords')
+nltk.download("stopwords")
+nltk.download("punkt")
+nltk.download("punkt_tab")
 
 from nltk.corpus import stopwords
 stopwords.words('english')
